@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Snaxs Smart</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+        <link rel="stylesheet" type="text/css" href="css/smart_snacks.css">
+        <link
+            href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One'
+            rel='stylesheet'
+            type='text/css'>
+        <link
+            href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,200italic,300italic,400italic,600,600italic,700,700italic,900'
+            rel='stylesheet'
+            type='text/css'>
+        <link rel='stylesheet' id='cmsms-google-font-1-css'  href='http://fonts.googleapis.com/css?family=Headland+One&#038;ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='cmsms-google-font-2-css'  href='http://fonts.googleapis.com/css?family=BenchNine%3A400%2C700&#038;ver=4.2.7' type='text/css' media='all' />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="keywords" content=""/>
+        <script type="application/x-javascript">
+            addEventListener("load", function () {
+                setTimeout(hideURLbar, 0);
+            }, false);
+            function hideURLbar() {
+                window.scrollTo(0, 1);
+            }
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+
+                    $('html,body').animate({
+                        scrollTop: $(this.hash)
+                            .offset()
+                            .top
+                    }, 1000);
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="snaxssmart_header">
+            <script type="text/javascript">
+                    $("#snaxssmart_header").load("master_page_snaxsmart/header.html", function () {
+                        $("ul.nav1 > li > a").each(function () {
+                            if (this.href == window.location.href) {
+                                $("ul.nav1 > li > a.active").removeClass("active")
+                                $(this).addClass("active");
+                            };
+                        });
+                    });
+                </script>
+        </div>
+        <div class="contact" id="contact">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39679.53805308582!2d-1.7923050999999999!3d51.568762799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871444f3ddbe4e5%3A0xa556bf37e9c5949a!2sSwindon%2C+UK!5e0!3m2!1sen!2sin!4v1433827286192"
+                    frameborder="0"
+                    style="border:0"></iframe>
+                <div class="map-text">
+                    <h3>CONTACT US</h3>
+                    <span class="trngl"></span>
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="container">
+                    <div class="col-md-6 contact-left">
+                        <p>"Lorem Ipsum"
+                            <br>is the common name dummy text often used in the design, printing, and type
+                                setting industries.</p>
+                        <ul>
+                            <li>
+                                <span></span>123,Globel Place. Swindon.</li>
+                            <li>
+                                <span class="mail"></span>
+                                <a href="mailto:example@email.com">mail@example.com</a>
+                            </li>
+                            <li>
+                                <span class="ph-no"></span>+123 4567 789</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 contact-right">
+                        <form>
+                            <input
+                                type="text"
+                                value="Your Name"
+                                onfocus="this.value = '';"
+                                onblur="if (this.value == '') {this.value = 'Your Name';}"
+                                required="">
+                            <input
+                                type="email"
+                                value="Your Email"
+                                onfocus="this.value = '';"
+                                onblur="if (this.value == '') {this.value = 'Your Email';}"
+                                required="">
+                            <textarea
+                                type="text"
+                                onfocus="this.value = '';"
+                                onblur="if (this.value == '') {this.value = 'Message';}"
+                                required="">Message</textarea>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+         <div class="footer">
+            <div id="snax_smart_footer">
+                <script type="text/javascript">
+                    $("#snax_smart_footer").load("master_page_snaxsmart/footer.html", function () {
+                        $(".nav1_footer ul > li > a").each(function () {
+                            if (this.href == window.location.href) {
+                                $(".nav1_footer ul > li > a.active").removeClass("active")
+                                $(this).addClass("active");
+                            };
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $().UItoTop({easingType: 'easeOutQuart'});
+            });
+        </script>
+        <a href="#home" class="scroll" id="toTop" style="display: block;">
+            <span id="toTopHover" style="opacity: 1;"></span>
+        </a>
+        <link rel="stylesheet" href="css/swipebox.css">
+        <script src="js/jquery.swipebox.min.js"></script>
+        <script type="text/javascript">
+            jQuery(function ($) {
+                $(".swipebox").swipebox();
+            });
+        </script>
+    </body>
+
+</html>
