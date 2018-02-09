@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Snaxs Smart</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+        <link rel="stylesheet" type="text/css" href="css/smart_snacks.css">
+        <link
+            href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One'
+            rel='stylesheet'
+            type='text/css'>
+        <link
+            href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,200italic,300italic,400italic,600,600italic,700,700italic,900'
+            rel='stylesheet'
+            type='text/css'>
+        <link rel='stylesheet' id='cmsms-google-font-1-css'  href='http://fonts.googleapis.com/css?family=Headland+One&#038;ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='cmsms-google-font-2-css'  href='http://fonts.googleapis.com/css?family=BenchNine%3A400%2C700&#038;ver=4.2.7' type='text/css' media='all' />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="keywords" content=""/>
+        <script type="application/x-javascript">
+            addEventListener("load", function () {
+                setTimeout(hideURLbar, 0);
+            }, false);
+            function hideURLbar() {
+                window.scrollTo(0, 1);
+            }
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    $('html,body').animate({
+                        scrollTop: $(this.hash)
+                            .offset()
+                            .top
+                    }, 1000);
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="snaxssmart_header">
+           <script type="text/javascript">
+                    $("#snaxssmart_header").load("master_page_snaxsmart/header.html", function () {
+                        $("ul.nav1 > li > a").each(function () {
+                            if (this.href == window.location.href) {
+                                $("ul.nav1 > li > a.active").removeClass("active")
+                                $(this).addClass("active");
+                            };
+                        });
+                    });
+                </script>
+        </div>
+        <div class="banner">
+            <script src="js/responsiveslides.min.js"></script>
+            <script>
+                $(function () {
+                    $("#slider3").responsiveSlides({
+                        after    : function () {
+                            $('.events').append("<li>after event fired.</li>");
+                        },
+                        auto     : false,
+                        before   : function () {
+                            $('.events').append("<li>before event fired.</li>");
+                        },
+                        namespace: "callbacks",
+                        nav      : true,
+                        pager    : true,
+                        speed    : 500
+                    });
+
+                });
+            </script>
+            <div id="top" class="callbacks_container">
+                <ul class="rslides" id="slider3">
+                    <li>
+                        <div class="banner1">
+                            <div class="container">
+                                <div class="banner-title">
+                                    <div class="bnr-top-text">
+                                        <h1>We Are Smart, creative...</h1>
+                                    </div>
+                                    <div class="bnr-bottom-text">
+                                        <p>"Lorem Ipsum"
+                                            <br>is the common name for dummy text often used in the design, printing, and
+                                                typesetting industries.</p>
+                                        <div class="arrow">
+                                            <span class="arrw"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner1 banner2">
+                            <div class="container">
+                                <div class="banner-title">
+                                    <div class="bnr-top-text">
+                                        <h1>We Are Smart, creative...</h1>
+                                    </div>
+                                    <div class="bnr-bottom-text">
+                                        <p>"Lorem Ipsum"
+                                            <br>is the common name for dummy text often used in the design, printing, and
+                                                typesetting industries.</p>
+                                        <div class="arrow">
+                                            <span class="arrw"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner1 banner3">
+                            <div class="container">
+                                <div class="banner-title">
+                                    <div class="bnr-top-text">
+                                        <h1>We Are Smart, creative...</h1>
+                                    </div>
+                                    <div class="bnr-bottom-text">
+                                        <p>"Lorem Ipsum"
+                                            <br>is the common name for dummy text often used in the design, printing, and
+                                                typesetting industries.</p>
+                                        <div class="arrow">
+                                            <span class="arrw"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner1 banner4">
+                            <div class="container">
+                                <div class="banner-title">
+                                    <div class="bnr-top-text">
+                                        <h1>We Are Smart, creative...</h1>
+                                    </div>
+                                    <div class="bnr-bottom-text">
+                                        <p>"Lorem Ipsum"
+                                            <br>is the common name for dummy text often used in the design, printing, and
+                                                typesetting industries.</p>
+                                        <div class="arrow">
+                                            <span class="arrw"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="container">
+        
+        </div>
+        
+         <div class="footer">
+            <div id="snax_smart_footer">
+                <script type="text/javascript">
+                    $("#snax_smart_footer").load("master_page_snaxsmart/footer.html", function () {
+                        $(".nav1_footer ul > li > a").each(function () {
+                            if (this.href == window.location.href) {
+                                $(".nav1_footer ul > li > a.active").removeClass("active")
+                                $(this).addClass("active");
+                            };
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $().UItoTop({easingType: 'easeOutQuart'});
+            });
+        </script>
+        <a href="#home" class="scroll" id="toTop" style="display: block;">
+            <span id="toTopHover" style="opacity: 1;"></span>
+        </a>
+        <link rel="stylesheet" href="css/swipebox.css">
+        <script src="js/jquery.swipebox.min.js"></script>
+        <script type="text/javascript">
+            jQuery(function ($) {
+                $(".swipebox").swipebox();
+            });
+        </script>
+    </body>
+
+</html>

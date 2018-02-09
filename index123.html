@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Snaxs Smart</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+        <link rel="stylesheet" type="text/css" href="css/smart_snacks.css">
+        <link
+            href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One'
+            rel='stylesheet'
+            type='text/css'>
+        <link
+            href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,200italic,300italic,400italic,600,600italic,700,700italic,900'
+            rel='stylesheet'
+            type='text/css'>
+        <link rel='stylesheet' id='cmsms-google-font-1-css'  href='http://fonts.googleapis.com/css?family=Headland+One&#038;ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='cmsms-google-font-2-css'  href='http://fonts.googleapis.com/css?family=BenchNine%3A400%2C700&#038;ver=4.2.7' type='text/css' media='all' />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="keywords" content=""/>
+        <script type="application/x-javascript">
+            addEventListener("load", function () {
+                setTimeout(hideURLbar, 0);
+            }, false);
+            function hideURLbar() {
+                window.scrollTo(0, 1);
+            }
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    $('html,body').animate({
+                        scrollTop: $(this.hash)
+                            .offset()
+                            .top
+                    }, 1000);
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="header" id="home">
+            <div class="container">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo"/>
+                    </a>
+                </div>
+                <div class="top-nav">
+                    <span class="menu"><img src="images/menu-icon.png" alt=""/></span>
+                    <ul class="nav1">
+                        <li>
+                            <a href="index.html" class="active">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="scroll">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="services.html" class="scroll">SERVICES</a>
+                        </li>
+                        <li>
+                            <a href="protfolio.html" class="scroll">PORTFOLIO</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="scroll">CONTACT</a>
+                        </li>
+                    </ul>
+                    <script>
+                        $("span.menu").click(function () {
+                            $("ul.nav1").slideToggle(300, function () {});
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="banner">
+            <script src="js/responsiveslides.min.js"></script>
+            <script>
+                $(function () {
+                    $("#slider3").responsiveSlides({
+                        after    : function () {
+                            $('.events').append("<li>after event fired.</li>");
+                        },
+                        auto     : false,
+                        before   : function () {
+                            $('.events').append("<li>before event fired.</li>");
+                        },
+                        namespace: "callbacks",
+                        nav      : true,
+                        pager    : true,
+                        speed    : 500
+                    });
+
+                });
+            </script>
+            <div id="top" class="callbacks_container">
+                <ul class="rslides" id="slider3">
+                    <li>
+                        <div class="banner1">
+                            <div class="container">
+                                <div class="banner-title">
+                                    <div class="bnr-top-text">
+                                        <h1>We Are Smart, creative...</h1>
+                                    </div>
+                                    <div class="bnr-bottom-text">
+                                        <p>"Lorem Ipsum"
+                                            <br>is the common name for dummy text often used in the design, printing, and
+                                                typesetting industries.</p>
+                                        <div class="arrow">
+                                            <span class="arrw"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner1 banner2">
+                            <div class="container">
+                                <div class="banner-title">
+                                    <div class="bnr-top-text">
+                                        <h1>We Are Smart, creative...</h1>
+                                    </div>
+                                    <div class="bnr-bottom-text">
+                                        <p>"Lorem Ipsum"
+                                            <br>is the common name for dummy text often used in the design, printing, and
+                                                typesetting industries.</p>
+                                        <div class="arrow">
+                                            <span class="arrw"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner1 banner3">
+                            <div class="container">
+                                <div class="banner-title">
+                                    <div class="bnr-top-text">
+                                        <h1>We Are Smart, creative...</h1>
+                                    </div>
+                                    <div class="bnr-bottom-text">
+                                        <p>"Lorem Ipsum"
+                                            <br>is the common name for dummy text often used in the design, printing, and
+                                                typesetting industries.</p>
+                                        <div class="arrow">
+                                            <span class="arrw"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner1 banner4">
+                            <div class="container">
+                                <div class="banner-title">
+                                    <div class="bnr-top-text">
+                                        <h1>We Are Smart, creative...</h1>
+                                    </div>
+                                    <div class="bnr-bottom-text">
+                                        <p>"Lorem Ipsum"
+                                            <br>is the common name for dummy text often used in the design, printing, and
+                                                typesetting industries.</p>
+                                        <div class="arrow">
+                                            <span class="arrw"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="container">
+        <div class="row">
+            
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="banner_bellow_first_box">
+                            <h1 class="widgettitle">Eat Healthy @ Work</h1>
+                            <p>Today is your opportunity to give health back to your life. Let Snaxsmart
+                                help you through it.</p>
+                            <p><a href=""></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="banner_bellow_second_box">
+                            <h1 class="widgettitle">Become a SnaxSmart company</h1>
+                            <p>Show the World you care for your Employees and spread the good word – HEALTH
+                                with Snaxsmart Health Vending</p>
+                                <p><a href=""></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="banner_bellow_third_box">
+                            <h1 class="widgettitle">We Deliver Good Health in Each Serving</h1>
+                            <p>We are a business built on the interest of health. Read our story.</p>
+                            <p><a href=""></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="home_content_sec">
+            <div class="home_content_inner">
+                <div class="row">
+                <div class="col-md-6">
+                    <div class="left_sec">
+                        <div class="heading">
+                            <h1>Tips for Healthy Workplace Eating</h1>
+                        </div>
+                        <div class="description">
+                            <h2>Just when you thought it isn’t Healthy to Snack</h2>
+                          <p>For decades, the human race has been made to believe that snacking isn’t healthy. However, the medical sciences are proving...</p>
+                        </div>
+                        <div class="topic1">
+                           <h2>
+                               <a href="">
+                                   <img src="images/hamburger-and-fries-150x150.jpg" alt="">
+                                   Business- Standard – Startup Snaxsmart places vending machines in offices to dispense guilt-free snacks
+                               </a>
+                           </h2>
+                           <p>
+                               M Shankar Prasad had a life-changing experience four years ago when he was the president for broadband and retail at...
+                           </p>
+                        </div>
+                        <div class="topic2">
+                            <h2><a href="">The Working Person’s Diet. What can be done to make it better?</a></h2>
+                            <p>A typical work day sees you rushing to office after gulping down a hot beverage and some frugal breakfast. Biscuits...</p>
+                        </div>
+                        <div class="topic3">
+                            <h2>
+                               <a href="">
+                                   <img src="images/hamburger-and-fries-150x150.jpg" alt="">
+                                   The Evolution and Need for Health Food Vending Machines
+                               </a>
+                           </h2>
+                           <p>
+                               Food vending machines are not new to mankind. However, health food vending machines is a relatively new revolution. All around...
+                           </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right_sec">
+                      <div class="right_sec_content"><h4>Why Snaxsmart</h4><br>Despite advances in the fields of medicine and healthcare, the incidence of so called ‘Lifestyle’ diseases is skyrocketing. &nbsp;Lack of exercise and sleep, sedentary lifestyle, stress and low quality of food are often key reasons behind the emergence of lifestyle diseases, which includes conditions like obesity, diabetes, cholesterol, heart diseases, and respiratory disorders.<br><br>There is growing awareness about lifestyle diseases and people have begun to recognize and understand the role of health foods today. People pay close attention to what they consume at home, but very often they do not realize that they end up eating junk food at the workplace. Starting with cookies and chips in the meeting room, washed down with plenty of coffee and tea, to an endless list of unhealthy food such as fried snacks, aerated sugary drinks and cheese rich pizzas, made available at the office cafeteria or the food court, these are the villains that breakdown people’s resolution to eat and stay healthy.<br><br>Let’s begin by answering some simple questions –<br><br>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;What is your idea of comfort food when you are working?</b><br><br>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;How long does it take for the delivery boy to </b><b>bring to your&nbsp;work bay a pizza, burger or fried chicken with loads of cheese on them?</b><br><br>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;How many counters serve fried snacks at your cafeteria?</b><br><br><b>Fast Food is definitely delicious for those taste buds but as they get down, they cause more havoc than you can imagine and more quickly than you think.</b><br><br>What if there is an attempt to introduce a change in this scenario? Would your food choices be any different?<br><br>79% of corporate professionals have stated that&nbsp;<b>LACK of ACCESS</b>&nbsp;to healthy foods at the workplace has contributed to their choice of fast food.<br><br>So, HERE is the SOLUTION…&nbsp; Snaxsmart. Let us show you a healthy&nbsp;tomorrow</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+            </div>
+        
+            
+            
+        </div>
+        <div class="footer">
+            <div id="snax_smart_footer">
+                <script type="text/javascript">
+                    $("#snax_smart_footer").load("master_page_snaxsmart/footer.html", function () {
+                        $(".navbar-inverse .navbar-nav > li > a").each(function () {
+                            if (this.href == window.location.href) {
+                                $(this).addClass("snaxs_smart_footer_highlighter");
+                            };
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $().UItoTop({easingType: 'easeOutQuart'});
+            });
+        </script>
+        <a href="#home" class="scroll" id="toTop" style="display: block;">
+            <span id="toTopHover" style="opacity: 1;"></span>
+        </a>
+        <link rel="stylesheet" href="css/swipebox.css">
+        <script src="js/jquery.swipebox.min.js"></script>
+        <script type="text/javascript">
+            jQuery(function ($) {
+                $(".swipebox").swipebox();
+            });
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html>
+<body>
+	<div class="header" id="home">
+            <div class="container-fluid">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo"/>
+                    </a>
+                </div>
+                <div class="top-nav">
+                    <span class="menu"><img src="images/menu-icon.png" alt=""/></span>
+                    <ul class="nav1">
+                        <li>
+                            <a href="index.html" class="active">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="scroll">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="services.html" class="scroll">SERVICES</a>
+                        </li>
+                        <li>
+                            <a href="protfolio.html" class="scroll">PORTFOLIO</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="scroll">CONTACT</a>
+                        </li>
+                        <li>
+                            <a href="about1.html" class="scroll">menu6</a>
+                        </li>
+                        <li>
+                            <a href="about2.html" class="scroll">menu7</a>
+                        </li>
+                        <li>
+                            <a href="about3.html" class="scroll">menu8</a>
+                        </li>
+                    </ul>
+                    <script>
+                        $("span.menu").click(function () {
+                            $("ul.nav1").slideToggle(300, function () {});
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    $('html,body').animate({
+                        scrollTop: $(this.hash)
+                            .offset()
+                            .top
+                    }, 1000);
+                });
+            });
+        </script>
+</body>
+</html>	

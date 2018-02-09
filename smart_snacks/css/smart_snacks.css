@@ -1,0 +1,95 @@
+.banner_bellow_first_box{
+	background-color: #ff6f24;
+	padding: 20px;
+	min-height: 300px;
+	position: relative;
+	z-index: 5;	
+}
+.banner_bellow_second_box{
+background-color: #f54027;
+padding: 20px;
+min-height: 200px;
+position: relative;
+min-height: 300px;
+z-index: 5;	
+}
+.banner_bellow_third_box{
+	background-color: #48a21d;
+	padding: 20px;
+	min-height: 200px;
+	position: relative;
+	min-height: 300px;
+	z-index: 5;	
+}
+.banner_bellow_first_box::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	background: #ff6f24;
+	transform: skewY(15deg);
+	z-index: -2;
+
+}
+.banner_bellow_first_box::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top:0%;
+	right: 0;
+	height: 100px;
+	background: #ff6f24;
+	transform: skewY(-15deg);
+	z-index: -2;
+	
+}
+.banner_bellow_second_box::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	background: #f54027;
+	transform: skewY(15deg);
+	z-index: -2;
+
+}
+.banner_bellow_second_box::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top:0%;
+	right: 0;
+	height: 100px;
+	background: #f54027;
+	transform: skewY(-15deg);
+	z-index: -2;
+	
+}
+.banner_bellow_third_box::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	background: #48a21d;
+	transform: skewY(15deg);
+	z-index: -2;
+
+}
+.banner_bellow_third_box::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top:0%;
+	right: 0;
+	height: 100px;
+	background: #48a21d;
+	transform: skewY(-15deg);
+	z-index: -2;
+	
+}

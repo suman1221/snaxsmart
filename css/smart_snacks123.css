@@ -1,0 +1,195 @@
+body {
+    background-color: #0b7104;
+    background-image: url(http://www.snaxsmart.com/wp-content/themes/agriculture/img/bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.header{
+	padding-bottom: 15px;
+}
+
+.banner_bellow_first_box{
+	background-color: #ff6f24;
+	padding: 20px;
+	min-height: 340px;
+	position: relative;
+	z-index: 5;
+	font-family: 'BenchNine', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	color: #fff;
+	text-align: center;
+
+	
+}
+.banner_bellow_second_box{
+background-color: #f54027;
+padding: 20px;
+min-height: 340px;
+position: relative;
+z-index: 5;
+font-family: 'BenchNine', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+text-align: center;
+color: #fff;
+
+
+}
+.banner_bellow_third_box{
+	background-color: #48a21d;
+	padding: 20px;
+	min-height: 340px;
+	position: relative;
+	z-index: 5;
+	font-family: 'BenchNine', Arial, Helvetica, 'Nimbus Sans L', sans-serif;	
+	text-align: center;
+	color: #fff;
+
+
+}
+.banner_bellow_first_box::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	background: #ff6f24;
+	transform: skewY(15deg);
+	z-index: -2;
+
+}
+.banner_bellow_first_box::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top:0%;
+	right: 0;
+	height: 100px;
+	background: #ff6f24;
+	transform: skewY(-15deg);
+	z-index: -2;
+	
+}
+.banner_bellow_second_box::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	background: #f54027;
+	transform: skewY(15deg);
+	z-index: -2;
+
+}
+.banner_bellow_second_box::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top:0%;
+	right: 0;
+	height: 100px;
+	background: #f54027;
+	transform: skewY(-15deg);
+	z-index: -2;
+	
+}
+.banner_bellow_third_box::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	background: #48a21d;
+	transform: skewY(15deg);
+	z-index: -2;
+
+}
+.banner_bellow_third_box::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	top:0%;
+	right: 0;
+	height: 100px;
+	background: #48a21d;
+	transform: skewY(-15deg);
+	z-index: -2;
+	
+}
+h1.widgettitle{
+	font-size: 44px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.banner_bellow_third_box p, .banner_bellow_first_box p, .banner_bellow_second_box p{
+	font-size: 15px;
+	font-family:  Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+.banner_bellow_third_box p a, .banner_bellow_second_box p a, .banner_bellow_first_box p a{
+    border: 2px solid #ffffff;
+    background: url(../images/icon_banner.png) no-repeat 50% -20px;
+    width: 35px;
+    height: 35px;
+    margin-left: -17px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+.banner_bellow_third_box p a:hover, .banner_bellow_second_box p a:hover, .banner_bellow_first_box p a:hover{
+	transform: rotate(90deg);
+	transition: all 0.6s linear;
+}
+.home_content_sec{
+	
+	background: #fff;
+}
+.home_content_inner{
+	border-top: 5px double #dad7cc;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.left_sec{
+	width: 100%;
+	background: #fefae5;
+}
+.left_sec h1{
+	width: 100%;
+	background: #fbbf00;
+	text-align: center;
+}
+.left_sec .description{
+	border-bottom: 5px double #dad7cc;
+}
+.topic1{
+	border-bottom: 5px double #dad7cc;
+}
+.topic1 img{
+	float: left;
+	padding: 10px;
+}
+.topic1 p{
+	clear: both;
+}
+.topic2{
+	border-bottom: 5px double #dad7cc;
+}
+.topic3 img{
+	float: left;
+	padding: 10px;
+}
+.topic3 p{
+	clear: both;
+}
+.home_content_sec{
+	padding: 20px;
+}
